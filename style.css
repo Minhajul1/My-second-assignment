@@ -4,6 +4,8 @@ body{
 }
 .header{
     display: flex;
+    background-color: blue;
+    height: 675px;
 }
 .header h1{
     font-size: 50px;
@@ -32,10 +34,6 @@ body{
     margin-bottom: 168px;
     margin-top: 464px;
     border-radius: 7px;
-}
-.header{
-    background-color: blue;
-    height: 675px;
 }
 .photo-album{
     margin-left: 125px;
@@ -71,12 +69,9 @@ footer img{
     margin-top: 150px;
     margin-left: 510px;
 }
-.icon-item{
+.icon{
     display: flex;
     justify-content: center;
-}
-.icon{
-    text-align: center;
 }
 .fab{
     font-size: 32px;
@@ -84,4 +79,43 @@ footer img{
 }
 .author{
     text-align: center;
+}
+
+
+@media only screen and (max-width:688px){
+    .header{
+        width: 100%;
+        flex-direction: column;
+        height: 800px;
+    }
+    .header h1{
+        font-size: 30px;
+        width: 278px;
+        height: 138px;
+        padding-top: 112px;
+        padding-left: 16px;
+    }
+    .content .banner{
+        position: absolute;
+        width: 329px;
+        height: 260px;
+    }
+    .link-button{
+        margin-left: 19px;
+    }
+    .photo-album{
+        margin-left: 35px;
+    }
+    .photo-frame{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    footer img{
+       margin-left: 105px;
+       width: 140px;
+       height: 60px;
+    }
+    .fab{
+        font-size: 32px;
+        margin: 0px;
+    }
 }

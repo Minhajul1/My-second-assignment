@@ -1,0 +1,87 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+}
+.header h1{
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+    Width: 485px;
+    Height: 230px;
+    padding-top: 207px;
+    padding-left: 146px;
+}
+.content{
+    width: 50%;
+    padding-left: 5%;
+}
+.content .banner{
+    width: 557px;
+    height: 438px;
+    padding-top: 153px;
+}
+.link-button{
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: white;
+    padding: 10px 24px;
+    margin-left: 156px;
+    margin-bottom: 168px;
+    margin-top: 464px;
+    border-radius: 7px;
+}
+.header{
+    background-color: blue;
+    height: 675px;
+}
+.photo-album{
+    margin-left: 125px;
+    margin-top: 60px;
+}
+.photo-frame{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.photo-frame .object{
+    padding: 10px;
+}
+.content-item{
+    width: 300px;
+    height: 434px;
+    box-shadow: 10px 10px 10px 15px lightgrey;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    
+}
+.content-item h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.content-item img{
+    width: 300px;
+    height: 256px;
+    border-radius: 5px;
+}
+footer img{
+    width: 270px;
+    height: 100px;
+    margin-top: 150px;
+    margin-left: 510px;
+}
+.icon-item{
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    text-align: center;
+}
+.fab{
+    font-size: 32px;
+    padding: 10px;
+}
+.author{
+    text-align: center;
+}
